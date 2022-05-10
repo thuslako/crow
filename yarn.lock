@@ -2,16 +2,6 @@
 # yarn lockfile v1
 
 
-amdefine@>=0.0.4:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
-  integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
-
-async@~0.2.6:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
-  integrity sha1-trvgsGdLnXGXCMo43owjfLUmw9E=
-
 esbuild-android-64@0.14.38:
   version "0.14.38"
   resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.14.38.tgz#5b94a1306df31d55055f64a62ff6b763a47b7f64"
@@ -167,13 +157,6 @@ nanoid@^3.3.3:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
-optimist@~0.3.5:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.3.7.tgz#c90941ad59e4273328923074d2cf2e7cbc6ec0d9"
-  integrity sha1-yQlBrVnkJzMokjB00s8ufLxuwNk=
-  dependencies:
-    wordwrap "~0.0.2"
-
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
@@ -192,14 +175,6 @@ postcss@^8.4.13:
     nanoid "^3.3.3"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
-
-require@^2.4.20:
-  version "2.4.20"
-  resolved "https://registry.yarnpkg.com/require/-/require-2.4.20.tgz#66cb6baaabb65de8a71d793f5c65fd184f3798b6"
-  integrity sha1-Zstrqqu2XeinHXk/XGX9GE83mLY=
-  dependencies:
-    std "0.1.40"
-    uglify-js "2.3.0"
 
 resolve@^1.22.0:
   version "1.22.0"
@@ -222,31 +197,10 @@ source-map-js@^1.0.2:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
-source-map@~0.1.7:
-  version "0.1.43"
-  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.1.43.tgz#c24bc146ca517c1471f5dacbe2571b2b7f9e3346"
-  integrity sha1-wkvBRspRfBRx9drL4lcbK3+eM0Y=
-  dependencies:
-    amdefine ">=0.0.4"
-
-std@0.1.40:
-  version "0.1.40"
-  resolved "https://registry.yarnpkg.com/std/-/std-0.1.40.tgz#3678a5f65094d9e1b6b5e26edbfc0212b8342b71"
-  integrity sha1-Nnil9lCU2eG2teJu2/wCErg0K3E=
-
 supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
-
-uglify-js@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.3.0.tgz#2cdec16d378a8a2b6ecfb6989784cf8b7ae5491f"
-  integrity sha1-LN7BbTeKiituz7aYl4TPi3rlSR8=
-  dependencies:
-    async "~0.2.6"
-    optimist "~0.3.5"
-    source-map "~0.1.7"
 
 vite@^2.9.8:
   version "2.9.8"
@@ -259,8 +213,3 @@ vite@^2.9.8:
     rollup "^2.59.0"
   optionalDependencies:
     fsevents "~2.3.2"
-
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
-  integrity sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
